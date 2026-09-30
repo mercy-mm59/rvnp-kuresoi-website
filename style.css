@@ -1,0 +1,611 @@
+/* =================================
+   WHOLE WEBSITE BACKGROUND
+================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-image: url("xuIk1qRr3I7GRm5YHNnPcnmUmcBkrqYGciR_Dr_jR3rpxf_Ajr8v5LrnEFobt3d8Umh99rHMEXm3ukN0qo5WQL6iJE_WYrRZT0qtnHz6rEnagtA0IL7Nf4yAKHtgdvAFNLjIxw64PJWLi4xzbYh9fgpokCe3KEaBVuH2MStj8yChZLYlwaZppd6CvPfDTGEL.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    color: #222;
+}
+
+
+/* =================================
+   HEADER
+================================= */
+
+header {
+    background: transparent;
+
+    text-align: center;
+
+    padding: 35px 20px;
+}
+
+
+/* MAIN RVNP TITLE */
+
+header h1 {
+    margin: 0;
+
+    font-size: 50px;
+
+    font-weight: 1000;
+
+    text-align: center;
+
+    color: #00ff4c;
+
+    text-shadow: 3px 3px 4px white;
+}
+
+
+/* KURESOI CAMPUS */
+
+header h2 {
+    margin: 15px 0;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    color: #13db56;
+}
+
+
+/* DESCRIPTION */
+
+header p {
+    font-size: 18px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    color: #e60649;
+}
+
+
+/* =================================
+   NAVIGATION
+================================= */
+
+nav {
+    background-color: #009447;
+
+    border-bottom: 5px solid #d63384;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 2000;
+}
+
+
+.nav-menu {
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+/* MAIN NAVIGATION ITEMS */
+
+.nav-menu > li {
+    position: relative;
+}
+
+
+/* MAIN NAVIGATION LINKS */
+
+.nav-menu > li > a {
+    display: block;
+
+    padding: 18px 25px;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+
+/* NAVIGATION HOVER */
+
+.nav-menu > li:hover > a {
+    background-color: #d63384;
+}
+
+
+/* =================================
+   DROPDOWN
+================================= */
+
+.dropdown-menu {
+    display: none;
+
+    position: absolute;
+
+    top: 100%;
+
+    left: 0;
+
+    width: 230px;
+
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+
+    background-color: white;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+    z-index: 3000;
+}
+
+
+/* SHOW DROPDOWN */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* DROPDOWN LINKS */
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+
+.dropdown-menu li a {
+    display: block;
+
+    padding: 14px 18px;
+
+    color: #e70a0a;
+
+    text-decoration: none;
+
+    text-align: left;
+
+    font-weight: bold;
+
+    font-size: 17px;
+}
+
+
+/* DROPDOWN HOVER */
+
+.dropdown-menu li a:hover {
+    background-color: #d63384;
+
+    color: white;
+}
+
+
+/* =================================
+   MAIN
+================================= */
+
+main {
+    padding: 50px 20px;
+}
+
+
+/* =================================
+   ALL SECTIONS
+================================= */
+
+section {
+    max-width: 1000px;
+
+    margin: 60px auto;
+
+    padding: 45px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.50);
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+/* SECTION TITLES */
+
+section h2 {
+    color: #00ff4c;
+
+    font-size: 40px;
+
+    font-weight: bold;
+
+    margin-bottom: 30px;
+
+    text-shadow: 2px 2px 3px black;
+}
+
+
+/* PARAGRAPHS */
+
+section p {
+    font-size: 18px;
+
+    line-height: 1.7;
+}
+
+
+/* =================================
+   HOME
+================================= */
+
+#home {
+    min-height: 450px;
+
+    padding-top: 80px;
+}
+
+
+#home h2 {
+    font-size: 45px;
+}
+
+
+.welcome-box {
+    margin-top: 40px;
+
+    padding: 25px;
+
+    background-color: rgba(0, 148, 71, 0.75);
+
+    border-radius: 12px;
+}
+
+
+.welcome-box h3 {
+    font-size: 28px;
+
+    color: white;
+}
+
+
+/* =================================
+   INFORMATION BOXES
+================================= */
+
+.info-box {
+    margin-top: 30px;
+
+    padding: 25px;
+
+    background-color: rgba(0, 148, 71, 0.65);
+
+    border-radius: 12px;
+}
+
+
+.info-box h3 {
+    color: #ffffff;
+
+    font-size: 25px;
+}
+
+
+/* =================================
+   COURSES
+================================= */
+
+.course {
+    margin: 25px 0;
+
+    padding: 25px;
+
+    background-color: rgba(255, 255, 255, 0.15);
+
+    border-left: 6px solid #00ff4c;
+
+    border-radius: 10px;
+}
+
+
+.course h3 {
+    color: #00ff4c;
+
+    font-weight: bold;
+
+    font-size: 30px;
+
+    margin-top: 0;
+}
+
+
+/* =================================
+   CORE VALUES
+================================= */
+
+.values-list {
+    list-style: none;
+
+    padding: 0;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 15px;
+}
+
+
+.values-list li {
+    padding: 18px;
+
+    background-color: rgba(0, 148, 71, 0.75);
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    font-size: 18px;
+}
+
+
+/* =================================
+   STUDENT SECTION
+================================= */
+
+.student-box {
+    margin: 30px 0;
+
+    padding: 25px;
+
+    background-color: rgba(255, 255, 255, 0.12);
+
+    border-radius: 12px;
+}
+
+
+.student-box h3 {
+    color: #00ff4c;
+
+    font-size: 28px;
+}
+
+
+/* STUDENT LIST */
+
+.student-list {
+    list-style-position: inside;
+
+    padding: 0;
+}
+
+
+.student-list li {
+    margin: 12px auto;
+
+    padding: 14px;
+
+    max-width: 600px;
+
+    background-color: #e6f2ff;
+
+    color: #222;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+
+/* =================================
+   REGISTRATION FORM
+================================= */
+
+form {
+    max-width: 600px;
+
+    margin: auto;
+
+    text-align: left;
+}
+
+
+form label {
+    display: block;
+
+    margin-top: 18px;
+
+    margin-bottom: 7px;
+
+    font-weight: bold;
+
+    color: white;
+}
+
+
+form input,
+form select {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+}
+
+
+form button {
+    display: block;
+
+    margin: 25px auto 0;
+
+    padding: 14px 35px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #009447;
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 17px;
+
+    cursor: pointer;
+}
+
+
+form button:hover {
+    background-color: #d63384;
+}
+
+
+/* =================================
+   CONTACT
+================================= */
+
+.contact-box {
+    background-color: rgba(255, 255, 255, 0.85);
+
+    color: #222;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    max-width: 700px;
+
+    margin: auto;
+}
+
+
+#contact strong {
+    color: #009447;
+}
+
+
+/* =================================
+   FOOTER
+================================= */
+
+footer {
+    background-color: rgba(0, 51, 102, 0.90);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+/* =================================
+   MOBILE PHONE
+================================= */
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+
+    header h2 {
+        font-size: 23px;
+    }
+
+
+    .nav-menu {
+        flex-direction: column;
+    }
+
+
+    .nav-menu > li {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .nav-menu > li > a {
+        font-size: 18px;
+    }
+
+
+    .dropdown-menu {
+        position: static;
+
+        width: 100%;
+    }
+
+
+    main {
+        padding: 20px 10px;
+    }
+
+
+    section {
+        margin: 25px 5px;
+
+        padding: 25px 15px;
+    }
+
+
+    section h2 {
+        font-size: 30px;
+    }
+
+
+    .values-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    .course h3 {
+        font-size: 25px;
+    }
+
+}
